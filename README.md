@@ -14,32 +14,25 @@ This repository contains a Python implementation of the Nussinov RNA folding alg
 ## Installation
 No additional libraries are required for running this script, as it uses standard Python libraries. Simply clone this repository to your local machine.
 
+##Usage
+To run the Nussinov RNA folding algorithm, execute the Python script with a given RNA sequence. The script will output the predicted secondary structure in dot-bracket notation and the paired bases.
+
 ```bash
 git clone https://github.com/varungangadharan/nussinov-implementation.git
 cd nussinov-implementation
-Usage
-To run the Nussinov RNA folding algorithm, execute the Python script with a given RNA sequence. The script will output the predicted secondary structure in dot-bracket notation and the paired bases.
 
 Example:
-
-python
-Copy code
-from nussinov import nussinov
 
 sequence = "GCAUAGC"
 structure, pairs = nussinov(sequence)
 print(f"Dot-Bracket Notation: {structure}")
 print(f"Paired Bases: {pairs}")
+
 Running the Tests
 The repository includes a test suite with predefined RNA sequences and their expected secondary structures. To run these tests:
 
-python
-Copy code
-from nussinov import test_nussinov
 
 test_nussinov()
 
 
 
-git clone https://github.com/varungangadharan/nussinov-implementation.git
-cd nussinov-implementation
