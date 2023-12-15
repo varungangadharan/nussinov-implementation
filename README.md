@@ -17,21 +17,22 @@ No additional libraries are required for running this script, as it uses standar
 ##Usage
 To run the Nussinov RNA folding algorithm, execute the Python script with a given RNA sequence. The script will output the predicted secondary structure in dot-bracket notation and the paired bases.
 
+Example:
+
 ```bash
 git clone https://github.com/varungangadharan/nussinov-implementation.git
 cd nussinov-implementation
 
-Example:
 
 sequence = "GCAUAGC"
 structure, pairs = nussinov(sequence)
 print(f"Dot-Bracket Notation: {structure}")
 print(f"Paired Bases: {pairs}")
-
+```
 Running the Tests
 The repository includes a test suite with predefined RNA sequences and their expected secondary structures. To run these tests:
 
-
+```bash
 test_nussinov()
 
 
