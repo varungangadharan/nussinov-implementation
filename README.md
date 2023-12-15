@@ -4,16 +4,17 @@
 This repository contains a Python implementation of the Nussinov RNA folding algorithm. The Nussinov algorithm is a computational method used to predict the secondary structure of RNA molecules by maximizing the number of base pairs.
 
 ## Features
--Implements the Nussinov RNA folding algorithm.
--Flexible minimum loop length configuration.
--Test cases with various RNA sequences for algorithm validation.
-Requirements
-Python 3.x
-Installation
+- Implements the Nussinov RNA folding algorithm.
+- Flexible minimum loop length configuration.
+- Test cases with various RNA sequences for algorithm validation.
+
+## Requirements
+- Python 3.x
+
+## Installation
 No additional libraries are required for running this script, as it uses standard Python libraries. Simply clone this repository to your local machine.
 
-bash
-Copy code
+```bash
 git clone https://github.com/varungangadharan/nussinov-implementation.git
 cd nussinov-implementation
 Usage
@@ -37,3 +38,8 @@ Copy code
 from nussinov import test_nussinov
 
 test_nussinov()
+
+
+
+git clone https://github.com/varungangadharan/nussinov-implementation.git
+cd nussinov-implementation
