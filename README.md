@@ -1,9 +1,9 @@
 # CS466 Final Project
 
-##Introduction
+## Introduction
 This repository contains a Python implementation of the Nussinov RNA folding algorithm. The Nussinov algorithm is a computational method used to predict the secondary structure of RNA molecules by maximizing the number of base pairs.
 
-##Features
+## Features
 -Implements the Nussinov RNA folding algorithm.
 -Flexible minimum loop length configuration.
 -Test cases with various RNA sequences for algorithm validation.
